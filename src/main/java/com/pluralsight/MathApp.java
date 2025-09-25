@@ -63,7 +63,7 @@ public class MathApp {
         //Bonus
 
         long millisecondsInMinute = 60000;
-        double millisecondsInNumberDays = Math.multiplyExact(minutesInNumberDays, millisecondsInMinute);
+        long millisecondsInNumberDays = Math.multiplyExact(minutesInNumberDays, millisecondsInMinute);
 
         System.out.println("Milliseconds of the given number of day is: " + millisecondsInNumberDays);
     }
